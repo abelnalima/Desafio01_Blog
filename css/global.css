@@ -1,0 +1,56 @@
+@import url(../css/app.css);
+@import url(../css/header.css);
+@import url(../css/main.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+@font-face {
+  font-family: "Inter";
+  src: url('../fonts/Inter-Medium.ttf');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Inter";
+  src: url('../fonts/Inter-Regular.ttf');
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Lexend Deca";
+  src: url('../fonts/LexendDeca-Regular.ttf');
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+}
+
+  :root {
+    --purple: #574AE8;
+    --white: #FFFFFF;
+    --white200: #F3F5F7;
+    --gray: #717171;
+    --gray-dark: #1A202C;
+
+    --gradient-default: linear-gradient(88.27deg, #574AE8 0%, #3EA1DB 100%);
+  }
+
+  header {
+    color: var(--white);
+    font-style: normal;
+    text-align: right;
+  }
+
+  article span, h2, p {
+    font-family: 'Lexend Deca', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    text-align: left;
+}
